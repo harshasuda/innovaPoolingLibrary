@@ -1,6 +1,6 @@
 package com.innova.innovaPoolingLibrary.res.values
 
-object Strings{
+object Strings {
     const val stringAppName = "Innova Polling"
     const val stringImRider = "I'm Rider"
     const val stringBiker = "Biker"
