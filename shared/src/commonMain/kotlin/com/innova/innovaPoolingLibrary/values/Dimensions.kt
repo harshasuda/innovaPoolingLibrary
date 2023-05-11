@@ -1,4 +1,4 @@
-package com.innova.innovaPoolingLibrary.res.values
+package com.innova.innovaPoolingLibrary.values
 
 object Paddings {
     const val padding1 = 1

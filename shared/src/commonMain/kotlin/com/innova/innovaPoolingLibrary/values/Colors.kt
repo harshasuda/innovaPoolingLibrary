@@ -1,4 +1,4 @@
-package com.innova.innovaPoolingLibrary.res.values
+package com.innova.innovaPoolingLibrary.values
 
 object LightThemeColors {
     const val primary: Long = 0XFF0072CA            // Blue (of Innova logo)
