@@ -1,6 +1,6 @@
 package com.innova.innovaPoolingLibrary.utils.regexUtils
 
-class RegexUtilsClass {
+class RegexUtils {
 
 
     private val regexStateRegistration = "^[A-Z]{2}[\\\\ -]?\\d{2}[\\\\ -]?[A-Z]{1,2}[\\\\ -]?\\d{4}\$"
@@ -16,6 +16,4 @@ class RegexUtilsClass {
         return vehicleNumber.matches(Regex(regexStateRegistration)) ||
                 vehicleNumber.matches(Regex(regexBharatRegistration))
     }
-
-
 }
