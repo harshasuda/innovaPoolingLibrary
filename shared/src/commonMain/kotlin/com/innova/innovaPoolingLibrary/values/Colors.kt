@@ -1,15 +1,15 @@
 package com.innova.innovaPoolingLibrary.values
 
 object LightThemeColors {
-    const val primary: Long = 0XFF0072CA            // Blue (of Innova logo)
-    const val secondary: Long = 0xFF888888          // Dark Grey
-    const val secondaryVarient: Long = 0XFFBEBEBE   // Light Grey
-    const val background: Long = 0XFFFFFFFF         // White
+    const val PRIMARY: Long = 0XFF0072CA              // Blue (of Innova logo)
+    const val SECONDARY: Long = 0xFF888888            // Dark Grey
+    const val SECONDARY_VARIENT: Long = 0XFFBEBEBE    // Light Grey
+    const val BACKGROUND: Long = 0XFFF2F8FA           // White
 }
 
 object DarkThemeColor {
-    const val primary: Long = 0XFF0072CA            // Blue (of Innova logo)
-    const val secondary: Long = 0xFF888888          // Dark Grey
-    const val secondaryVarient: Long = 0XFFBEBEBE   // Light Grey
-    const val background: Long = 0XFF000000         // Black
+    const val PRIMARY: Long = 0XFF0072CA              // Blue (of Innova logo)
+    const val SECONDARY: Long = 0xFF888888            // Dark Grey
+    const val SECONDARY_VARIENT: Long = 0XFFBEBEBE    // Light Grey
+    const val BACKGROUND: Long = 0XFF090A0A           // Black
 }
