@@ -3,10 +3,10 @@ package com.innova.innovaPoolingLibrary.utils.regexUtils
 class RegexUtils {
 
 
-    private val regexStateRegistration = "^[A-Z]{2}[\\\\ -]?\\d{2}[\\\\ -]?[A-Z]{1,2}[\\\\ -]?\\d{4}\$"
-    private val regexBharatRegistration = "^\\d{2}[\\\\ -]?BH{1,2}[\\\\ -]?\\d{4}[\\\\ -]?[A-Z]{2}\$"
-    private val mobilePattern = "[0-9]{10}"
-    private val emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"
+    private val regexStateRegistration ="^[A-Z]{2}\\s[0-9]{2}\\s[A-Z]{2}\\s[0-9]{4}\$" /*"^[A-Z]{2}[ -][0-9][ -]{1,2}[ -][A-Z]{1,2}[ -][0-9]{4}\$"*//*"^[A-Z]{2}[\\\\ -]?\\d{2}[\\\\ -]?[A-Z]{1,2}[\\\\ -]?\\d{4}\$"*/
+    private val regexBharatRegistration = "^\\d{2}\\sBH{1,2}\\s\\d{4}\\s[^IO]{2}\$"
+    private val mobilePattern = "^(\\+91[\\-\\s]?)?[0]?(91)?[6789]\\d{9}\$"
+    private val emailPattern = "^[a-z.]+@(innovasolutions)\\.com\$"
 
     fun isPhoneNumberValid(phoneNumber: String) = phoneNumber.matches(Regex(mobilePattern))
 
