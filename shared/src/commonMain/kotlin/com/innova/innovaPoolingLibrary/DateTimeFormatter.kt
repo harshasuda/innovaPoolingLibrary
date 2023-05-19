@@ -1,13 +1,7 @@
 package com.innova.innovaPoolingLibrary
 
-val dateUtilities = DateUtilities()
-
-class DateUtilities {
-    var platformDate = DateFormatter()
-    val outputDateFormat = "MMM d"
-
-}
-
-expect class DateFormatter() {
-    fun getFormattedDate(): String
+expect class DateTimeFormatter {
+    //output date format = "MMM d"
+    //output time format = "hh:mm a"
+    fun <T> getFormattedDateTime(selectedDateTime: T, outputDateTimeFormat: String): String?
 }
